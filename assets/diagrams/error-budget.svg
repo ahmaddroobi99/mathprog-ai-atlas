@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" role="img" aria-labelledby="t d">
+  <title id="t">Four sources of decision error</title>
+  <desc id="d">Prediction error, candidate loss, solver gap, and execution drift all feed final decision quality.</desc>
+  <rect width="920" height="260" fill="#0b1220"/>
+  <g font-family="ui-sans-serif, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <rect x="310" y="24" width="300" height="56" rx="12" fill="#052e16" stroke="#4ade80" stroke-width="2"/>
+    <text x="460" y="58" fill="#dcfce7" font-size="18">Final decision quality</text>
+    <rect x="20" y="140" width="200" height="80" rx="12" fill="#152238" stroke="#7dd3fc"/>
+    <text x="120" y="174" fill="#e2e8f0" font-size="15">Prediction error</text>
+    <text x="120" y="196" fill="#93c5fd" font-size="11">bad coefficients</text>
+    <rect x="247" y="140" width="200" height="80" rx="12" fill="#152238" stroke="#38bdf8"/>
+    <text x="347" y="174" fill="#e2e8f0" font-size="15">Candidate loss</text>
+    <text x="347" y="196" fill="#93c5fd" font-size="11">optimum never proposed</text>
+    <rect x="474" y="140" width="200" height="80" rx="12" fill="#152238" stroke="#22d3ee"/>
+    <text x="574" y="174" fill="#e2e8f0" font-size="15">Solver gap</text>
+    <text x="574" y="196" fill="#67e8f9" font-size="11">heuristic or timeout</text>
+    <rect x="700" y="140" width="200" height="80" rx="12" fill="#152238" stroke="#fbbf24"/>
+    <text x="800" y="174" fill="#e2e8f0" font-size="15">Execution drift</text>
+    <text x="800" y="196" fill="#fde68a" font-size="11">live system differs</text>
+    <path d="M120 140 L430 80" stroke="#64748b" stroke-width="1.5"/>
+    <path d="M347 140 L450 80" stroke="#64748b" stroke-width="1.5"/>
+    <path d="M574 140 L470 80" stroke="#64748b" stroke-width="1.5"/>
+    <path d="M800 140 L490 80" stroke="#64748b" stroke-width="1.5"/>
+  </g>
+</svg>
