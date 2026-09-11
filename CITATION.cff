@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "MathProg AI Atlas"
+message: "If you use this atlas, please cite it as below."
+type: software
+authors:
+  - family-names: Droobi
+    given-names: Ahmad
+    email: ahmad.droobi1999@gmail.com
+    website: https://github.com/ahmaddroobi99
+repository-code: https://github.com/ahmaddroobi99/mathprog-ai-atlas
+url: https://github.com/ahmaddroobi99/mathprog-ai-atlas
+abstract: >
+  A living educational atlas that maps mathematical programming
+  paradigms to modern AI applications. The working thesis is that
+  machine learning predicts and mathematical programming decides.
+keywords:
+  - mathematical programming
+  - machine learning
+  - operations research
+  - optimization
+  - decision layer
+license: MIT
+version: 0.1.0
+date-released: "2026-09-11"
